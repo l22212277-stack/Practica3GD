@@ -27,9 +27,9 @@ El objetivo de esta práctica es determinar la tasa de liberación de fármacos 
 
 Se analizan cuatro formulaciones de hidrogeles (N45\_2MBA12, N35\_VP15, N32 y N36\_2MBA3) mediante el ajuste de cuatro modelos distintos:
 
-1.  **Ecuación de Peppas:** Modela mecanismos de liberación por difusión y relajación de cadenas poliméricas: $X(t) = k \cdot t^n$.
-2.  **Farmacocinética de primer orden:** Describe la liberación proporcional a la cantidad de fármaco remanente: $X(t) = \beta \cdot (1 - e^{-kt})$.
-3.  **Modelo Eureqa (Función del tiempo):** Un modelo empírico basado en la raíz cuadrada del tiempo: $X(t) = \rho_1 \cdot \sqrt{t} - \rho_2 \cdot t$.
+1.  **Ecuación de Peppas:** Modela mecanismos de liberación por difusión y relajación de cadenas poliméricas: $X(t) = k  t^n$.
+2.  **Farmacocinética de primer orden:** Describe la liberación proporcional a la cantidad de fármaco remanente: $X(t) = \beta  (1 - e^{-kt})$.
+3.  **Modelo Eureqa (Función del tiempo):** Un modelo empírico basado en la raíz cuadrada del tiempo: $X(t) = \rho_1  \sqrt{t} - \rho_2  t$.
 4.  **Modelo Eureqa Diferencial:** Representa la dinámica mediante una ecuación diferencial ordinaria (EDO) de primer orden:
     $$\dot{x} = \rho_1 - \rho_2x$$
 
