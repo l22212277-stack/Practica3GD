@@ -31,7 +31,7 @@ Se analizan cuatro formulaciones de hidrogeles (N45\_2MBA12, N35\_VP15, N32 y N3
 2.  **Farmacocinética de primer orden:** Describe la liberación proporcional a la cantidad de fármaco remanente: $X(t) = \beta \cdot (1 - e^{-kt})$.
 3.  **Modelo Eureqa (Función del tiempo):** Un modelo empírico basado en la raíz cuadrada del tiempo: $X(t) = \rho_1 \cdot \sqrt{t} - \rho_2 \cdot t$.
 4.  **Modelo Eureqa Diferencial:** Representa la dinámica mediante una ecuación diferencial ordinaria (EDO) de primer orden:
-    $$\dor{x} = \rho_1 - \rho_2x$$
+    $$\dot{x} = \rho_1 - \rho_2x$$
 
 Este enfoque permite identificar qué modelo describe con mayor precisión la liberación acumulada del fármaco, utilizando indicadores bioestadísticos como la R-cuadrada ordinaria y el Criterio de Información de Akaike (AICc).
 
